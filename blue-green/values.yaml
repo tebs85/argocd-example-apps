@@ -5,8 +5,8 @@
 replicaCount: 5
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
-  tag: 0.2
+  repository: tonysm/k8s-demo-app
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
